@@ -18,4 +18,8 @@ app.get('/api/v3', function(req, res) {
     res.send('Hello, API v3');
 })
 
+app.get('/api/v4', function(req, res) {
+    res.send('Hello, API v4');
+})
+
 app.listen(PORT);

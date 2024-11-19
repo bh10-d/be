@@ -14,4 +14,8 @@ app.get('/api/v2', function(req, res) {
     res.send('Hello, API v2');
 })
 
+app.get('/api/v3', function(req, res) {
+    res.send('Hello, API v3');
+})
+
 app.listen(PORT);
